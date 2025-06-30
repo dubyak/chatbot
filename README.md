@@ -17,3 +17,13 @@ A simple Streamlit app that shows how to build a chatbot using OpenAI's GPT-3.5.
    ```
    $ streamlit run streamlit_app.py
    ```
+
+### LCM messaging analysis
+
+This repository also includes `analysis_app.py`, a small Streamlit utility that
+loads CSV exports of LCM messages and conversation logs in order to explore how
+marketing campaigns influence customer behaviour. To launch it run:
+
+```bash
+$ streamlit run analysis_app.py
+```
