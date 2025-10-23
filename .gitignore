@@ -1,5 +1,15 @@
 .streamlit/secrets.toml
 
+# Security and audit logs
+audit_log.json
+*.audit
+uploaded_files/
+temp_files/
+
+# API keys and secrets
+.env.local
+secrets.json
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
